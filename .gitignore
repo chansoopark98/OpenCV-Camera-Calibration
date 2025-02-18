@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 *.mp4
+*.csv
 assets/calibration
 # C extensions
 *.so

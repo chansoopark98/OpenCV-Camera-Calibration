@@ -86,7 +86,7 @@ if __name__ == '__main__':
     print(calib_results)
 
     # Save the calibration results to a CSV file
-    with open('./asset/calibration_results.csv', 'w', newline='') as csvfile:
+    with open('./assets/calibration_results.csv', 'w', newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(["Reprojection Error", "Camera Matrix", "Distortion Coefficients"])
         csvwriter.writerow([calib_results["reprojection_error"], calib_results["camera_matrix"], calib_results["dist_coeffs"]])

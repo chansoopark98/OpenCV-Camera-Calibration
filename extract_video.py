@@ -19,8 +19,7 @@ while True:
     if not ret:
         break
     # Save the frame with the original resolution.
-    if frame_index % 10 == 0:
-        frame = cv2.rotate(frame, cv2.ROTATE_90_COUNTERCLOCKWISE)
+    if frame_index % 5 == 0:
         cv2.imwrite(os.path.join(output_dir, f"frame_{frame_index:04d}.png"), frame)
     frame_index += 1
 
