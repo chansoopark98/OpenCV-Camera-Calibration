@@ -27,18 +27,18 @@
 
 # How to use
 
-1. assets/checkerboard.png A4 용지 인쇄
+1. **Print** Checkerboard images (assets/checkerboard.png) to A4 
     ![CheckerBoard](assets/checkerboard.png)
 
-2. 카메라로 촬영 후 assets/calibration_video.mp4 파일 저장
+2. **Recording** and then move video file to **assets/calibration_video.mp4**
 
-3. 비디오 프레임 추출
+3. **Extract** video frames
     ```bash
     python extract_video.py
     ```
 
 
-4. 캘리브레이션 실행
+4. **Run** calibration
     ```bash
     python camera_calibration.py
     ```
