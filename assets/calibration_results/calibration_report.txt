@@ -2,163 +2,41 @@ Camera Calibration Report
 ==================================================
 
 Chessboard pattern size used: (9, 6)
-Total images used for calibration: 146
-Overall reprojection error (RMS): 1.227347
+Total images used for calibration: 24
+Overall reprojection error (RMS): 2.707475
 
 Camera intrinsic parameters (camera matrix):
-[[1.42211761e+03 0.00000000e+00 9.24563300e+02]
- [0.00000000e+00 1.42320437e+03 6.67618304e+02]
+[[2.68514167e+03 0.00000000e+00 1.95686626e+03]
+ [0.00000000e+00 2.68205215e+03 1.57421193e+03]
  [0.00000000e+00 0.00000000e+00 1.00000000e+00]]
 
 Distortion coefficients:
-[ 4.61261656e+00  1.52566232e+02  3.99432715e-02 -8.94777724e-03
- -2.28010648e+02  4.59288047e+00  1.51620807e+02 -2.21658384e+02
-  1.04955946e-03  1.12894506e-02 -3.83977855e-02 -3.98692076e-02]
+[ 1.12718703e+01  1.38806881e+02  1.49542419e-02 -8.34978273e-03
+  1.22956984e+02  1.11921657e+01  1.35642592e+02  1.35426769e+02
+ -1.14699307e-03  2.46919217e-02 -1.81460929e-02 -1.76421911e-03]
 
 Per-image reprojection errors:
-./assets/calibration/frame_0745.png: 0.213798
-./assets/calibration/frame_0240.png: 0.400561
-./assets/calibration/frame_0200.png: 0.283544
-./assets/calibration/frame_0295.png: 0.266729
-./assets/calibration/frame_0280.png: 0.297350
-./assets/calibration/frame_0525.png: 0.129017
-./assets/calibration/frame_0255.png: 0.133863
-./assets/calibration/frame_0455.png: 0.163680
-./assets/calibration/frame_0665.png: 0.072903
-./assets/calibration/frame_0635.png: 0.114333
-./assets/calibration/frame_0140.png: 0.142827
-./assets/calibration/frame_0130.png: 0.096096
-./assets/calibration/frame_0385.png: 0.143650
-./assets/calibration/frame_0205.png: 0.186903
-./assets/calibration/frame_0500.png: 0.070483
-./assets/calibration/frame_0705.png: 0.076742
-./assets/calibration/frame_0470.png: 0.090266
-./assets/calibration/frame_0265.png: 0.101346
-./assets/calibration/frame_0505.png: 0.093599
-./assets/calibration/frame_0335.png: 0.222453
-./assets/calibration/frame_0310.png: 0.131694
-./assets/calibration/frame_0260.png: 0.217500
-./assets/calibration/frame_0615.png: 0.085969
-./assets/calibration/frame_0270.png: 0.210817
-./assets/calibration/frame_0510.png: 0.082354
-./assets/calibration/frame_0020.png: 0.198743
-./assets/calibration/frame_0075.png: 0.141015
-./assets/calibration/frame_0450.png: 0.087850
-./assets/calibration/frame_0180.png: 0.102883
-./assets/calibration/frame_0675.png: 0.071330
-./assets/calibration/frame_0550.png: 0.171484
-./assets/calibration/frame_0235.png: 0.101561
-./assets/calibration/frame_0155.png: 0.126316
-./assets/calibration/frame_0405.png: 0.101616
-./assets/calibration/frame_0365.png: 0.166520
-./assets/calibration/frame_0355.png: 0.132206
-./assets/calibration/frame_0285.png: 0.383727
-./assets/calibration/frame_0640.png: 0.082669
-./assets/calibration/frame_0185.png: 0.135398
-./assets/calibration/frame_0460.png: 0.146459
-./assets/calibration/frame_0055.png: 0.138945
-./assets/calibration/frame_0645.png: 0.116620
-./assets/calibration/frame_0300.png: 0.180600
-./assets/calibration/frame_0230.png: 0.160508
-./assets/calibration/frame_0625.png: 0.097179
-./assets/calibration/frame_0220.png: 0.239824
-./assets/calibration/frame_0325.png: 0.090854
-./assets/calibration/frame_0585.png: 0.144509
-./assets/calibration/frame_0060.png: 0.096059
-./assets/calibration/frame_0315.png: 0.158575
-./assets/calibration/frame_0565.png: 0.104420
-./assets/calibration/frame_0710.png: 0.382930
-./assets/calibration/frame_0380.png: 0.125313
-./assets/calibration/frame_0410.png: 0.061945
-./assets/calibration/frame_0160.png: 0.173702
-./assets/calibration/frame_0275.png: 0.232831
-./assets/calibration/frame_0435.png: 0.097819
-./assets/calibration/frame_0350.png: 0.155470
-./assets/calibration/frame_0630.png: 0.091352
-./assets/calibration/frame_0090.png: 0.281216
-./assets/calibration/frame_0085.png: 0.301814
-./assets/calibration/frame_0695.png: 0.107542
-./assets/calibration/frame_0495.png: 0.072016
-./assets/calibration/frame_0490.png: 0.056611
-./assets/calibration/frame_0540.png: 0.172518
-./assets/calibration/frame_0070.png: 0.133909
-./assets/calibration/frame_0730.png: 0.297748
-./assets/calibration/frame_0535.png: 0.265612
-./assets/calibration/frame_0725.png: 0.414600
-./assets/calibration/frame_0480.png: 0.056687
-./assets/calibration/frame_0105.png: 0.111997
-./assets/calibration/frame_0045.png: 0.108268
-./assets/calibration/frame_0475.png: 0.099445
-./assets/calibration/frame_0030.png: 0.210304
-./assets/calibration/frame_0190.png: 0.285691
-./assets/calibration/frame_0065.png: 0.098314
-./assets/calibration/frame_0465.png: 0.056628
-./assets/calibration/frame_0415.png: 0.075424
-./assets/calibration/frame_0345.png: 0.175361
-./assets/calibration/frame_0735.png: 0.126151
-./assets/calibration/frame_0440.png: 0.083547
-./assets/calibration/frame_0015.png: 0.228284
-./assets/calibration/frame_0095.png: 0.114535
-./assets/calibration/frame_0720.png: 0.179083
-./assets/calibration/frame_0115.png: 0.076947
-./assets/calibration/frame_0145.png: 0.169074
-./assets/calibration/frame_0210.png: 0.127162
-./assets/calibration/frame_0515.png: 0.089940
-./assets/calibration/frame_0250.png: 0.075538
-./assets/calibration/frame_0620.png: 0.091542
-./assets/calibration/frame_0165.png: 0.141189
-./assets/calibration/frame_0530.png: 0.144658
-./assets/calibration/frame_0375.png: 0.140059
-./assets/calibration/frame_0670.png: 0.074835
-./assets/calibration/frame_0175.png: 0.106884
-./assets/calibration/frame_0125.png: 0.128565
-./assets/calibration/frame_0685.png: 0.091029
-./assets/calibration/frame_0100.png: 0.092759
-./assets/calibration/frame_0195.png: 0.379220
-./assets/calibration/frame_0320.png: 0.102553
-./assets/calibration/frame_0340.png: 0.357308
-./assets/calibration/frame_0740.png: 0.104583
-./assets/calibration/frame_0715.png: 0.114443
-./assets/calibration/frame_0520.png: 0.137039
-./assets/calibration/frame_0690.png: 0.122103
-./assets/calibration/frame_0430.png: 0.109864
-./assets/calibration/frame_0445.png: 0.100377
-./assets/calibration/frame_0655.png: 0.082119
-./assets/calibration/frame_0590.png: 0.307749
-./assets/calibration/frame_0700.png: 0.081861
-./assets/calibration/frame_0150.png: 0.167568
-./assets/calibration/frame_0080.png: 0.132902
-./assets/calibration/frame_0395.png: 0.133157
-./assets/calibration/frame_0110.png: 0.093341
-./assets/calibration/frame_0575.png: 0.084543
-./assets/calibration/frame_0370.png: 0.123078
-./assets/calibration/frame_0215.png: 0.221762
-./assets/calibration/frame_0545.png: 0.165388
-./assets/calibration/frame_0040.png: 0.072916
-./assets/calibration/frame_0225.png: 0.133473
-./assets/calibration/frame_0010.png: 0.236998
-./assets/calibration/frame_0420.png: 0.110026
-./assets/calibration/frame_0680.png: 0.084012
-./assets/calibration/frame_0305.png: 0.293434
-./assets/calibration/frame_0135.png: 0.152759
-./assets/calibration/frame_0560.png: 0.134457
-./assets/calibration/frame_0570.png: 0.125308
-./assets/calibration/frame_0170.png: 0.201864
-./assets/calibration/frame_0580.png: 0.149079
-./assets/calibration/frame_0120.png: 0.082497
-./assets/calibration/frame_0025.png: 0.198577
-./assets/calibration/frame_0425.png: 0.055060
-./assets/calibration/frame_0035.png: 0.108828
-./assets/calibration/frame_0050.png: 0.116268
-./assets/calibration/frame_0660.png: 0.081384
-./assets/calibration/frame_0005.png: 0.203355
-./assets/calibration/frame_0360.png: 0.094119
-./assets/calibration/frame_0290.png: 0.203196
-./assets/calibration/frame_0485.png: 0.108913
-./assets/calibration/frame_0400.png: 0.096095
-./assets/calibration/frame_0555.png: 0.177900
-./assets/calibration/frame_0245.png: 0.116789
-./assets/calibration/frame_0000.png: 0.105665
-./assets/calibration/frame_0390.png: 0.099921
-./assets/calibration/frame_0330.png: 0.193508
-./assets/calibration/frame_0650.png: 0.094699
+./assets/calibration/frame_0240.png: 0.287711
+./assets/calibration/frame_0270.png: 0.271833
+./assets/calibration/frame_0450.png: 0.394262
+./assets/calibration/frame_0180.png: 0.395062
+./assets/calibration/frame_0840.png: 0.459851
+./assets/calibration/frame_0300.png: 0.356994
+./assets/calibration/frame_0060.png: 0.242569
+./assets/calibration/frame_0780.png: 0.376895
+./assets/calibration/frame_0630.png: 0.416638
+./assets/calibration/frame_0090.png: 0.279291
+./assets/calibration/frame_0540.png: 0.512071
+./assets/calibration/frame_0480.png: 0.388063
+./assets/calibration/frame_0030.png: 0.265475
+./assets/calibration/frame_0870.png: 0.180226
+./assets/calibration/frame_0720.png: 0.319445
+./assets/calibration/frame_0210.png: 0.341565
+./assets/calibration/frame_0810.png: 0.496994
+./assets/calibration/frame_0690.png: 0.323383
+./assets/calibration/frame_0750.png: 0.358320
+./assets/calibration/frame_0150.png: 0.492646
+./assets/calibration/frame_0120.png: 0.266819
+./assets/calibration/frame_0660.png: 0.331570
+./assets/calibration/frame_0000.png: 0.191550
+./assets/calibration/frame_0330.png: 0.568695

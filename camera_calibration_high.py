@@ -317,6 +317,8 @@ if __name__ == '__main__':
             "reprojection_error": float(calib_results["reprojection_error"]),
             "camera_matrix": calib_results["camera_matrix"].tolist(),
             "dist_coeffs": calib_results["dist_coeffs"].ravel().tolist(),
+            "image_height": img_size[1],
+            "image_width": img_size[0],
         }
         json.dump(json_results, f, indent=4)
     
